@@ -1,5 +1,6 @@
 **********************
 ## Buranova Tatiana
+=====================
 
 ![Photo](avatar.jpg)
 
@@ -35,7 +36,8 @@ While still working at school, she took front-end development courses. But due t
 **Code**
 Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
 
-`function solution(str, ending){
+```
+function solution(str, ending){
   let s = str.slice(-1);
   let e = ending.slice(-1);
   
@@ -44,7 +46,8 @@ Complete the solution so that it returns true if the first argument(string) pass
   } else {
     return false;
   }
-}`
+}
+```
 
 ************************
 **Education**
@@ -52,6 +55,14 @@ Complete the solution so that it returns true if the first argument(string) pass
 - Teacher of Mathematics and Computer Science. BSPU named after Maxim Tank, Faculty of Physics and Mathematics, 2016
 
 - SkillUp, WEB and JavaScript for Front-end Development, 2021
+
+***********************
+**Projects**
+
++ [3D-animation](https://tatianakan.github.io/3d-animation/)
++ [Leanding About Us](https://tatianakan.github.io/AboutSmooth/)
++ [Intensive Methed Aircraft](https://tatianakan.github.io/ME_RegistrationAircraft/)
+
 
 ***********************
 **Experience**
