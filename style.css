@@ -22,20 +22,14 @@ a {
 
 .container_left {
   background-color: #be72f8;
-  margin-right: 50px;
+  margin-right: 25px;
   padding: 40px;
 }
 
 .avatar_img {
   width: 250px;
   border-radius: 10px;
-  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
-}
-
-.name_text {
-  font-size: 46px;
-  text-align: center;
-  font-weight: 700;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
 }
 
 .contacts_title,
@@ -73,7 +67,7 @@ a {
 .skills_item {
   font-size: 24px;
   padding: 5px 10px;
-  background-color:rgb(231, 192, 252);
+  background-color: rgb(231, 192, 252);
   text-align: center;
   border-radius: 10px;
 }
@@ -83,8 +77,58 @@ a {
   font-weight: 700;
 }
 
-.languages_name span{
+.languages_name span {
   font-size: 18px;
   font-weight: 400;
   color: #543e6b;
+}
+
+.container_right {
+  padding: 0 50px;
+}
+
+.name_text {
+  font-size: 46px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.vacancy {
+  font-size: 26px;
+  text-align: right;
+}
+
+.about_descr {
+  font-size: 20px;
+}
+
+.about_list {
+  display: flex;
+  gap: 50px;
+}
+
+.education_list,
+.experience_list,
+.projects_list {
+  font-size: 20px;
+}
+
+.education_item,
+.experience_item,
+.projects_item {
+  margin-top: 15px;
+}
+
+.projects_list {
+  font-size: 20px;
+  list-style: none;
+  color: #330f5d;
+}
+
+.code_task {
+  font-size: 20px;
+}
+
+code {
+  font-size: 18px;
 }
