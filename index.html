@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <title>CV</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <section class="name">
     <h2>Buranova Tatiana</h2>
@@ -27,7 +29,8 @@
 
   <section class="about">
     <h3 class="about_title">About Me</h3>
-    <p class="about_descr">I worked as a teacher of mathematics and computer science for 5 years. I have 1 certification category. But in at
+    <p class="about_descr">I worked as a teacher of mathematics and computer science for 5 years. I have 1 certification
+      category. But in at
       some point I fell in love with creating sites from scratch. I dream of learning how to develop interfaces any
       complexity.
       While still working at school, she took front-end development courses. But due to some circumstances, I could not
@@ -39,5 +42,46 @@
     </ul>
   </section>
 
+  <section class="skills">
+    <h3 class="skills_title">Skills</h3>
+    <ol class="skills_list">
+      <li class="skills_item">HTML5</li>
+      <li class="skills_item">CSS3</li>
+      <li class="skills_item">JavaScript</li>
+      <li class="skills_item">Bootstrap</li>
+      <li class="skills_item">Figma</li>
+      <li class="skills_item">Git</li>
+    </ol>
+  </section>
+
+  <section class="code">
+    <h3 class="code_title">Code</h3>
+    <p class="code_task">Complete the solution so that it returns true if the first argument(string) passed in ends with
+      the 2nd argument
+      (also a string).</p>
+    <code>
+    function solution(str, ending){
+      let s = str.slice(-1);
+      let e = ending.slice(-1);
+      
+      if (s === e) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  </code>
+  </section>
+
+  <section class="education">
+    <h3 class="education_title">Education</h3>
+    <ul class="education_list">
+      <li class="education_item">SkillUp, WEB and JavaScript for Front-end Development, 2021</li>
+      <li class="education_item">Teacher of Mathematics and Computer Science. BSPU named after Maxim Tank, Faculty of Physics and Mathematics,
+        2016</li>
+    </ul>
+  </section>
+
 </body>
+
 </html>
