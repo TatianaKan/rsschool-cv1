@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #D5EEE8;
+  display: flex;
+}
+
+.container_left {
+  background-color: #be72f8;
+  margin-right: 25px;
+  padding: 40px;
+}
+
+.avatar_img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+.contacts_title,
+.skills_title,
+.languages_title,
+.about_title,
+.code,
+.education_title,
+.projects_title,
+.experience_title {
+  font-size: 24px;
+  color: #2A1C3A;
+}
+
+.contacts_list {
+  list-style: none;
+  font-size: 18px;
+  color: #565555;
+  padding: 10px;
+}
+
+.contacts_link {
+  color: #000000;
+  font-size: 19px;
+}
+
+.skills_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 15px;
+}
+
+.skills_item {
+  font-size: 24px;
+  padding: 5px 10px;
+  background-color: rgb(231, 192, 252);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.languages_name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.languages_name span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #543e6b;
+}
+
+.container_right {
+  padding: 0 50px;
+}
+
+.name_text {
+  font-size: 46px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.vacancy {
+  font-size: 26px;
+  text-align: right;
+}
+
+.about_descr {
+  font-size: 20px;
+}
+
+.about_list {
+  display: flex;
+  gap: 50px;
+}
+
+.education_list,
+.experience_list,
+.projects_list {
+  font-size: 20px;
+}
+
+.education_item,
+.experience_item,
+.projects_item {
+  margin-top: 15px;
+}
+
+.projects_list {
+  font-size: 20px;
+  list-style: none;
+  color: #330f5d;
+}
+
+.code_task {
+  font-size: 20px;
+}
+
+code {
+  font-size: 18px;
+}

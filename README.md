@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[https://github.com/TatianaKan/rsschool-cv/blob/gh-pages/cv.md](https://github.com/TatianaKan/rsschool-cv/blob/gh-pages/cv.md)
+[https://tatianakan.github.io/rsschool-cv/](https://tatianakan.github.io/rsschool-cv/)
